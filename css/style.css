@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-image img{
+    max-width: 1050px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+.principal h1{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.principal span{
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+.principal p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.email input{
+    width: 350px;
+    height: 40px;
+    border-radius: 200px;
+    border: 1px solid hsl(0, 0%, 59%);
+    color:hsl(0, 0%, 59%);
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.email input:focus{
+    padding-left: 20px;
+}
+
+.email button{
+    width: 150px;
+    height: 40px;
+    border-radius: 200px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-left: 10px;
+}
+
+.email button:hover{
+    cursor: pointer;
+    background-color: hsl(223, 87%, 63%,80%);
+}
+
+.email p{
+    font-size: 13px;
+    margin-right: 245px;
+    color:#D0342C ;
+
+}
+
+.dashboard-image img{
+    max-width: 600px;
+    padding-top: 20px;
+}
+
+.final ul{
+    list-style: none;
+    display: flex;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.final li{
+    justify-content: space-between;
+}
+
+.final li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    color: hsl(223, 87%, 63%);
+    
+}
+
+.final li button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+}
+
+.final p{
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+
+.display{
+    display: none;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
