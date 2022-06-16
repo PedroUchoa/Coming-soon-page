@@ -79,9 +79,13 @@ body{
 
 }
 
+.email div{
+    height: 18px;
+}
+
 .dashboard-image img{
     max-width: 600px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .final ul{
